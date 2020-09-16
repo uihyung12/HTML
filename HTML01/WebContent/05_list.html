@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTML List</title>
+</head>
+<body>
+
+<!--  
+HTML 리스트:
+1. <ul>: unordered list. 순서가 없는 리스트. bullet 이미지로 리스트를 표현
+2. <ol>: ordered list. 순서가 있는 리스트. 숫자(알파벳)으로 리스트를 표현
+	<ul>, <ol> 리스트의 아이템은 <li> 태그(list item)를 사용
+
+3. <dl>: definition list. 사전식 리스트
+	<dl> 리스트는 <dt>와 <dd> 태그를 사용(definition title, definition description)
+-->
+
+<ul style="list-style-type: circle;">
+	<li>
+		<a href="http://www.w3schools.com/">HTML</a>
+	</li>
+	<li>CSS</li>          
+	<li>JavaScript</li>
+</ul>
+
+<ol style="list-style-type: lower-roman;">
+	<li>Servlet</li>
+	<li>JSP</li>
+	<li>Spring</li>
+</ol>
+
+<dl>
+	<dt>서울</dt>
+	<dd>대한민국 수도</dd>
+	<dt>런던</dt>
+	<dd>영국의 수도. 면적 ...., 인구 ....</dd>
+</dl>
+
+<hr/>
+<!-- 중첩 리스트 -->
+<ul>
+	<li> Front-End 개발
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+		</ul>
+	</li>
+	
+	<li> Back-End 개발
+		<ul>
+			<li>Java - JSP/Servlet</li>
+			<li>Node.js</li>
+			<li>C# - ASP .NET</li>
+		</ul>
+	</li>
+</ul>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
